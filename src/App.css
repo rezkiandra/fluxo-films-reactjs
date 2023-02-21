@@ -5,14 +5,13 @@
     box-sizing: border-box;
 }
 
+/* App */
 .MyBG {
     height: 100vh;
-    background-image: url(./assets/images/programming.jpg);
-    background-repeat: no-repeat;
+    background-image: url(./assets/images/cinema1.jpg);
+    background-repeat: repeat-y;
     background-size: cover;
     background-position: center;
 }
 
-#home {
-    height: 90vh;
-}
+/* End App */

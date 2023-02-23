@@ -1,7 +1,7 @@
 import React from "react";
-import SpiderImage from "../assets/images/spiderman.jpg"
 import MeganImage from "../assets/images/megan.jpg"
-import AvengerImage from "../assets/images/endgame.jpg"
+import ThorImage from "../assets/images/thor.jpg"
+import DeathImage from "../assets/images/death.jpg"
 
 import { Container, Card, Col } from "react-bootstrap";
 
@@ -10,11 +10,11 @@ export const Upcoming = () => {
         <>
             <Container className="d-lg-flex justify-content-center align-items-center gap-5">
                 <Col className="col-lg-3">
-                    <Card className="my-3">
-                        <Card.Img className="img-fluid" variant="top" src={SpiderImage} />
+                    <Card className="my-5">
+                        <Card.Img className="img-fluid" variant="top" src={ThorImage} />
                         <Card.Body>
-                            <Card.Title className="text-center text-uppercase">Spiderman: No Way Home</Card.Title>
-                            <Card.Text className="text-center text-capitalize">a poor sickly orphan, is bitten by a radioactive spider
+                            <Card.Title className="text-center text-uppercase">Thor: Love and Thunder</Card.Title>
+                            <Card.Text className="text-center text-capitalize">A Thunder God must return to action and recruit Valkyrie
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -30,11 +30,11 @@ export const Upcoming = () => {
                     </Card>
                 </Col>
                 <Col className="col-lg-3">
-                    <Card className="my-3">
-                        <Card.Img className="img-fluid" variant="top" src={AvengerImage} />
+                    <Card className="my-5">
+                        <Card.Img className="img-fluid" variant="top" src={DeathImage} />
                         <Card.Body>
-                            <Card.Title className="text-center text-uppercase">Avengers: End Game</Card.Title>
-                            <Card.Text className="text-center text-capitalize">A American superhero film based on the Marvel Comics
+                            <Card.Title className="text-center text-uppercase">Out of Death</Card.Title>
+                            <Card.Text className="text-center text-capitalize">A corrupt Sheriff's department in a rural mountain town comes undone.
                             </Card.Text>
                         </Card.Body>
                     </Card>

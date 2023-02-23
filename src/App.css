@@ -2,16 +2,19 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 /* App */
-.MyBG {
-    height: 100vh;
+#MyBG {
+    min-height: 100vh;
+    max-height: fit-content;
     background-image: url(./assets/images/cinema1.jpg);
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 /* End App */

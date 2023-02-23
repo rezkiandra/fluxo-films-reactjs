@@ -1,5 +1,5 @@
 import React from "react";
-import "../../App.css"
+import "../App.css"
 import { Container, Button } from "react-bootstrap";
 
 export const Home = () => {

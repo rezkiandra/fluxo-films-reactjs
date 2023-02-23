@@ -19,4 +19,11 @@
     justify-content: center;
     align-items: center;
 }
+
+#film,
+#trending,
+#upcoming {
+    font-size: 13px;
+    font-weight: 500;
+}
 /* End App */

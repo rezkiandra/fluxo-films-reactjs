@@ -1,4 +1,5 @@
 import React from "react"
+import "../App.css"
 import PercyImage from "../assets/images/percy.jpg"
 import MortalImage from "../assets/images/mortal.jpg"
 import SpiderImage from "../assets/images/spiderman.jpg"
@@ -8,7 +9,7 @@ import { Container, Card, Col } from "react-bootstrap";
 
 export const Film = () => {
     return (
-        <>
+        <div id="film">
             <Container className="d-lg-flex justify-content-center align-items-center gap-4">
                 <Col className="col-lg-3">
                     <Card className="my-5">
@@ -51,6 +52,6 @@ export const Film = () => {
                     </Card>
                 </Col>
             </Container>
-        </>
+        </div>
     )
 }

@@ -8,7 +8,7 @@ import { Container, Card, Col } from "react-bootstrap";
 
 export const Trending = () => {
     return (
-        <>
+        <div id="trending">
             <Container className="d-lg-flex justify-content-center align-items-center gap-5">
                 <Col className="col-lg-3">
                     <Card className="my-5">
@@ -41,6 +41,6 @@ export const Trending = () => {
                     </Card>
                 </Col>
             </Container>
-        </>
+        </div>
     )
 }

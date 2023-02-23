@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fluxofilms/static/css/main.630a1882.css",
-    "main.js": "/fluxofilms/static/js/main.423f3196.js",
+    "main.css": "/fluxofilms/static/css/main.8280bbfb.css",
+    "main.js": "/fluxofilms/static/js/main.5def466a.js",
     "static/js/787.223550ad.chunk.js": "/fluxofilms/static/js/787.223550ad.chunk.js",
     "static/media/endgame.jpg": "/fluxofilms/static/media/endgame.9e559c36ac9bce38816e.jpg",
     "static/media/spiderman.jpg": "/fluxofilms/static/media/spiderman.4ed2c90f3a4d0db22321.jpg",
@@ -14,12 +14,12 @@
     "static/media/dune.jpg": "/fluxofilms/static/media/dune.1c33f3ac2bcc7fa5dcfd.jpg",
     "static/media/avatar.jpg": "/fluxofilms/static/media/avatar.0bbe722bf91582f8db15.jpg",
     "index.html": "/fluxofilms/index.html",
-    "main.630a1882.css.map": "/fluxofilms/static/css/main.630a1882.css.map",
-    "main.423f3196.js.map": "/fluxofilms/static/js/main.423f3196.js.map",
+    "main.8280bbfb.css.map": "/fluxofilms/static/css/main.8280bbfb.css.map",
+    "main.5def466a.js.map": "/fluxofilms/static/js/main.5def466a.js.map",
     "787.223550ad.chunk.js.map": "/fluxofilms/static/js/787.223550ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.630a1882.css",
-    "static/js/main.423f3196.js"
+    "static/css/main.8280bbfb.css",
+    "static/js/main.5def466a.js"
   ]
 }
